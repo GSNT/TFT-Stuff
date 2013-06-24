@@ -12,7 +12,7 @@
 
 ![Revision G01](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v20.jpg)
 
-## 24.06.2013: Canged ISP and Reset
+## 24.06.2013: Changed ISP and Reset
 
 ### ISP
 
