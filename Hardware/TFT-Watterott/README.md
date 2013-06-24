@@ -16,7 +16,7 @@
 
 ### ISP
 
-* added:   ISP Pullup
+* added:   ISP Pullup 10k
 
 ### Reset
 
