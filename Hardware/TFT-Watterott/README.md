@@ -1,6 +1,6 @@
 # Hardware V3.0
 
-## 23.06.2013: Start mit V2 Hardware
+## 23.06.2013: Start with V2 Hardware
 
 ### SWD-Connector
 
@@ -10,5 +10,18 @@
 * changed: Pin 39 an SWD-CON
 * changed: PAD 39 an Pin 30 (AD6)
 
-	
 ![Revision G01](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v20.jpg)
+
+## 24.06.2013: Canged ISP and Reset
+
+### ISP
+
+* added:   ISP Pullup
+
+### Reset
+
+* added:   Diode, so Reset high (from CON1 or CON2) does not disturb SWD Reset
+* changed: Reset Pullup from 100k to 22k
+
+	
+![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/Reset_ISP.jpg)
