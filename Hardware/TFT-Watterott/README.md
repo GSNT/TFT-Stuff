@@ -27,16 +27,32 @@
 
 ## 26.06.2013: Added Adapter Interrupt
 
-### Interrupt via P0[3]
+### Busy Interrupt via P0[3]
 
 To show the device that the Adapter is busy, P0[3] is set low. So the device can wait until slow commands like 'Clear' are executed.
 
-Sample:
+Sample (device code):
 
 	//clear blue
 	cmd_lcd_clear(COL_BLUE);
-	//ms_delay(50);
-	//wait
+	//ms_delay(50); //wait
 	busy_wait;
 
 The old 50 ms delay wasn't working. Clearing needs about 110 ms....
+
+###  TP Interrupt via P0[3]
+To show the device that the TP has been used, it's generating an interrupt also.
+So the device doesn't need to read *CMD_TP_POS*, Just wait for an interrupt...
+
+
+Sample (device code):
+
+	while (1)								//endless loop
+	{
+	//get position it TP touched
+	 if(busy_down)						//if min pressure reached
+	 {
+	//read touched position
+	  cmd_tp_pos();
+	...
+
