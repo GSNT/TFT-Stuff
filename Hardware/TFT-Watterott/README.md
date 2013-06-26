@@ -23,5 +23,18 @@
 * added:   Diode, so Reset high (from CON1 or CON2) does not disturb SWD Reset
 * changed: Reset Pullup from 100k to 22k
 
-	
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/Reset_ISP.jpg)
+
+## 26.06.2013: Added Adapter Interrupt
+
+### Interrupt via P0[3]
+
+To show the device that the Apater is busy, P0[3] is set low. So the device can wait until slow commands like 'Clear' are executed.
+
+Sample:
+//clear blue
+ cmd_lcd_clear(COL_BLUE);
+ //ms_delay(50);						//wait
+ busy_wait;
+ 
+ The old 50 ms delay wasn't working. Clearing needs about 110 ms....
