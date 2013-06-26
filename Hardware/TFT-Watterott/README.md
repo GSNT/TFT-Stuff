@@ -32,10 +32,10 @@
 To show the device that the Adapter is busy, P0[3] is set low. So the device can wait until slow commands like 'Clear' are executed.
 
 Sample:
-     //clear blue
-     cmd_lcd_clear(COL_BLUE);
-     //ms_delay(50);
-     //wait
-     busy_wait;
+    //clear blue
+    cmd_lcd_clear(COL_BLUE);
+    //ms_delay(50);
+    //wait
+    busy_wait;
  
  The old 50 ms delay wasn't working. Clearing needs about 110 ms....
