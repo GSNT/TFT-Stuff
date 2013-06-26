@@ -42,14 +42,14 @@ The old 50 ms delay wasn't working. Clearing needs about 110 ms....
 
 ###  TP Interrupt via P0[3]
 To show the device that the TP has been used, it's generating an interrupt also.
-So the device doesn't need to read *CMD_TP_POS*, Just wait for an interrupt...
+So the device doesn't need to read *CMD_TP_POS*, just wait for an interrupt...
 
 
 Sample (device code):
 
-	while (1)								//endless loop
+	while(1)							//endless loop
 	{
-	//get position it TP touched
+	//get position if TP touched
 	 if(busy_down)						//if min pressure reached
 	 {
 	//read touched position
