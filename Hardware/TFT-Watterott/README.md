@@ -58,6 +58,6 @@ Sample (device code):
 
 ## 27.06.2013: Decided to change MCU
 
-### This nice LPC1317 is a by far better MCU for my needs. Ordered a few today...
+This nice LPC1317 is a by far better MCU for my needs. Ordered a few today...
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v2G1.jpg)
