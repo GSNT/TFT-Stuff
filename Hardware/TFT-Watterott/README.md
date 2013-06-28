@@ -61,3 +61,44 @@ Sample (device code):
 This nice LPC1317 is a by far better MCU for my needs. Ordered a few today...
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v2G1.jpg)
+
+## 28.06.2013: Preliminary Migration Table
+
+Pin functions are nearly the same, but of course 32bit ports of LPC1317 have different names.
+ 
+Same pin, same function, different name. No changes of hardware are required.
+
+	LPC1114        LPC1317
+	==============================
+	Name    Pin    Name   Function
+	------------------------------
+	P0.11   32     P0.11  AD0
+	P1.0    33     P0.12  AD1
+	P1.1    34     P0.13  AD2
+	P1.2    35     P0.14  AD3
+	P1.4	40	   P0.16  AD5
+	P1.6    46     P0.18  RxD
+	P1.7    47     P0.19  TxD
+	P1.9    17     P0.21  Timer16B1MAT0
+	P1.10   30     P0.22  AD6
+	P2.0     2     P1.19  GPIO
+	P2.1    13     P1.20  GPIO
+	P2.2    26     P1.21  GPIO
+	P2.3    38     P1.22  GPIO
+	P2.6     1     P1.25  GPIO
+	P2.7    11     P1.26  GPIO
+	P2.8    12     P1.27  GPIO
+	P2.9    24     P1.28  GPIO
+	P2.10   25     P1.31  GPIO
+	P2.11   31     P1.29  GPIO
+	P3.0    36     P1.13  GPIO
+
+Different pin, different name. V2 wiring has to be changed.
+
+	LPC1114        LPC1317
+	====================================
+	Name    Pin    Name    Pin  Function
+	------------------------------------
+	P2.4    19     P1.23   18   GPIO
+	P2.5    20     P1.24   21   GPIO
+	P3.5    21     P0.7    23   GPIO	
