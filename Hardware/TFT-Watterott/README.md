@@ -9,7 +9,7 @@
 * changed: Pad 29 to Pin 22 (P0.6 SCK0)
 * changed: Pin 39 (SWDIO) to SWD_CON-3
 * changed: Pad 39 to Pin 30 (AD6)
-* added:   Pin  3 (Reset) to SWD_CON_4
+* added:   Pin  3 (Reset) to SWD_CON-4
 * added:   GND to SWD-CON-1
 
 ![Revision G01](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v20.jpg)
