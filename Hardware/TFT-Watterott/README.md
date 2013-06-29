@@ -2,13 +2,15 @@
 
 ## 23.06.2013: Start with V2 Hardware
 
-### SWD-Connector
+### SWD-Connector (SWD_CON)
 
-* added:   Mini-SWD Connector, 4-pol 2.54 SMD
-* changed: Pin 29 an SWD-CON
-* changed: PAD 29 an Pin 22 (P0.6 SCK0)
-* changed: Pin 39 an SWD-CON
-* changed: PAD 39 an Pin 30 (AD6)
+* added:   Mini-SWD Connector (SWD_CON), 1X4, 2.54mm SMT
+* changed: Pin 29 (SWCLK) to SWD_CON-2
+* changed: Pad 29 to Pin 22 (P0.6 SCK0)
+* changed: Pin 39 (SWDIO) to SWD_CON-3
+* changed: Pad 39 to Pin 30 (AD6)
+* added:   Pin  3 (Reset) to SWD_CON_4
+* added:   GND to SWD-CON-1
 
 ![Revision G01](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/MI0283QT_v20.jpg)
 
