@@ -105,12 +105,12 @@ Different pin, different name. V2 wiring has to be changed.
 	P2.5    20     P1.24   21   GPIO
 	P3.5    21     P0.7    23   GPIO	
 
-## 29.06.2013: The new LPCXpresso2-LPC1317
+## 29.06.2013: The new LPCXpresso2-LPC1317...
 
-is a wondeful toy.
+...is a wondeful toy.
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/LPCXpresso2-1.jpg)
 
-Fast with the new LPC1317 and easy to degub with the new LPC-Link2.
+Fast with the new LPC1317 and easy to debug with the new LPC-Link2.
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/LPCXpresso2-2.jpg)
