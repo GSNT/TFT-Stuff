@@ -114,3 +114,4 @@ Different pin, different name. V2 wiring has to be changed.
 Fast with the new LPC1317 and easy to debug with the new LPC-Link2.
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/LPCXpresso2-2.jpg)
+
