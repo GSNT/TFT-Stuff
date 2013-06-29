@@ -23,7 +23,7 @@
 ### Reset
 
 * added:   Diode, so Reset high (from CON1 or CON2) does not disturb SWD Reset
-* changed: Reset Pullup from 100k to 22k
+* changed: Reset Pullup (R11) from 100k to 22k
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/Reset_ISP.jpg)
 
