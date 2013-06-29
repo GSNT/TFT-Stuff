@@ -52,8 +52,8 @@ Sample (device code):
 	while(1)							//endless loop
 	{
 	//get position if TP touched
-	 if(busy_down)						//if min pressure reached
-	 {
+	 if(busy_down)						//if TP interrupt is triggered
+	{
 	//read touched position
 	  cmd_tp_pos();
 	...
