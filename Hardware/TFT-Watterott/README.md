@@ -107,7 +107,7 @@ Different pin, different name. V2 wiring has to be changed.
 
 ## 29.06.2013: The new LPCXpresso2-LPC1317...
 
-...is a wonderful toy.
+...is a nice toy.
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/LPCXpresso2-1.jpg)
 
