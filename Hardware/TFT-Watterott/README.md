@@ -115,3 +115,30 @@ Fast with the new LPC1317 and easy to debug with the new LPC-Link2.
 
 ![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/LPCXpresso2-2.jpg)
 
+## 04.07.2013: The new Version 3...
+
+![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/V2.1LPC1317.jpg)
+
+Changed from V2.0 Hardware:
+
+	1. LPC1317
+	2. Mini-SWD Connector
+	3. Reset Pullup (22k)
+	4. 12MHz Crystal
+	5. Old-fashioned Button
+	6. ISP-Pullup (10k)
+	7. Reset protection diode
+
+Results are shown in a Demo-Video:
+
+http://youtu.be/iz0yMOvGaXE
+
+and a few Test-Videos:
+
+http://youtu.be/oESg6GbXva8
+
+http://youtu.be/4N7BZOJgmM8
+
+http://youtu.be/xizTCbmM3MA
+
+It's nearly 3 times faster than the original LPC1114, 64kB instead 32kB Flash and an EEPROM...
