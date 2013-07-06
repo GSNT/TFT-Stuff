@@ -142,3 +142,9 @@ http://youtu.be/4N7BZOJgmM8
 http://youtu.be/xizTCbmM3MA
 
 It's nearly 3 times faster than the original LPC1114, 64kB instead 32kB Flash and an EEPROM...
+
+## 06.07.2013: Next trial looks better...
+
+...with original button and SMT crystal... 
+
+![Revision G02](https://raw.github.com/GSNT/TFT-Stuff/master/Hardware/TFT-Watterott/V2.1LPC1317_2.jpg)
