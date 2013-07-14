@@ -129,7 +129,7 @@ Changed from V2.0 Hardware:
 	6. ISP-Pullup (10k)
 	7. Reset protection diode
 
-Results are shown in a Demo-Videos:
+Results are shown in Demo-Videos:
 
 http://youtu.be/iz0yMOvGaXE
 
